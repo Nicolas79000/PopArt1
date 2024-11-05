@@ -1,0 +1,76 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Fond blanc ou autre couleur d'origine */
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Titre et en-tête */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe4e1; /* Couleur légère en fond */
+}
+header h1 {
+    font-family: 'Bangers', cursive; /* Police pour un style pop art */
+    font-size: 48px;
+    color: #ff1493;
+}
+header p {
+    font-size: 18px;
+    color: #333333;
+}
+
+/* Section À propos */
+#about {
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+}
+
+/* Section Produits */
+.product-category {
+    padding: 20px;
+    text-align: center;
+    background-color: #fafafa;
+    margin: 10px auto;
+    max-width: 800px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.product-category h2 {
+    font-family: 'Bangers', cursive;
+    color: #ff1493;
+}
+.product-category img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+/* Boutons */
+.button {
+    padding: 10px 20px;
+    background-color: #ff6347; /* Couleur des boutons */
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.button:hover {
+    background-color: #ff4500;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333333;
+    color: #ffffff;
+    margin-top: 20px;
+}
